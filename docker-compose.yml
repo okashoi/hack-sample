@@ -1,0 +1,9 @@
+version: "3"
+
+services:
+
+  hack:
+    build: ./services/hack
+    volumes:
+      - ./src:/app
+    working_dir: /app
